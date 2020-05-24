@@ -7,7 +7,7 @@ module.exports = (env, args) => {
     const isProductionMode = (args.mode === "production");
 
     return {
-        entry: "./app.js",
+        entry: "./src/app.js",
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: isProductionMode ? "[name].[contenthash].js" : "[name].[hash].js",
