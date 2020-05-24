@@ -1,0 +1,26 @@
+{
+  "name": "aca",
+  "version": "0.1.0",
+  "description": "Apoptotic cellular automata code with Rust and Javascript.",
+  "main": "app.js",
+  "scripts": {
+    "test": "cargo test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeaWagon/aca.git"
+  },
+  "keywords": [
+    "cellular",
+    "automata",
+    "apoptosis",
+    "evolutionary",
+    "computation"
+  ],
+  "author": "Jen Garner",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PeaWagon/aca/issues"
+  },
+  "homepage": "https://github.com/PeaWagon/aca#readme"
+}
