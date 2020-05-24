@@ -4,7 +4,9 @@
   "description": "Apoptotic cellular automata code with Rust and Javascript.",
   "main": "app.js",
   "scripts": {
-    "test": "cargo test"
+    "test": "cargo test",
+    "dev": "webpack-dev-server --port 9000 --open",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/PeaWagon/aca/issues"
   },
-  "homepage": "https://github.com/PeaWagon/aca#readme"
+  "homepage": "https://github.com/PeaWagon/aca#readme",
+  "dependencies": {
+    "@wasm-tool/wasm-pack-plugin": "0.4.2",
+    "html-webpack-plugin": "^4.3.0",
+    "text-encoding": "^0.7.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
