@@ -10,6 +10,77 @@
 <body>
     <h1>Apoptotic Cellular Automata</h1>
     <p>Currently, nothing is here...</p>
+
+    <form action="">
+        <div class="form">
+            <label class="stacked" for="1D">1D</label>
+            <input type="radio" name="aca-type" id="1D" value="1D" checked>
+            <label class="stacked" for="2D">2D</label>
+            <input type="radio" name="aca-type" id="2D" value="2D">
+    
+            <br>
+    
+            <label for="num-mevs">Number of mating events:</label>
+            <input type="number" name="num-mevs" id="num-mevs" min="0" max="100" value="100">
+    
+            <br>
+    
+            <label for="population-size">Population size:</label>
+            <input type="number" name="population-size" id="population-size" value="10">
+    
+            <br>
+    
+            <label for="num-states">Number of states:</label>
+            <input type="number" name="num-states" id="num-states" value="10">
+    
+            <br>
+    
+            <label for="t-size">Tournament size:</label>
+            <input type="number" name="t-size" id="t-size" value="7">
+    
+            <br>
+    
+            <label for="n-size">Neighbourhood size:</label>
+            <input type="number" name="n-size" id="n-size" value="51">
+    
+            <br>
+    
+            <label for="width">Width:</label>
+            <input type="number" name="width" id="width" value="51">
+    
+            <br>
+            
+            <label for="height">Height:</label>
+            <input type="number" name="height" id="height" value="51">
+    
+            <br>
+    
+            <label id="num-iters-label" for="num-iters" style="display: none;">Number of iterations:</label>
+            <input type="number" name="num-iters" id="num-iters" value="51" style="display: none;">
+    
+            <br id="num-iters-break" style="display: none;">
+    
+            <label for="start-population">Start population:</label>
+            <input type="number" name="start-population" id="start-population" value="51">
+    
+            <br>
+    
+            <label for="max-cuts">Maximum number of cuts:</label>
+            <input type="number" name="max-cuts" id="max-cuts" value="51">
+    
+            <br>
+    
+            <label for="max-mutations">Maximum number of mutations:</label>
+            <input type="number" name="max-mutations" id="max-mutations" value="51">
+    
+            <br>
+    
+            <button type="submit">Submit Job</button>
+        </div>
+    </form>
+
     <table></table>
+
+    <script src="public/javascript/functions.js"></script>
 </body>
 </html>

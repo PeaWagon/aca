@@ -3,6 +3,32 @@ use aca;
 #[test]
 fn example_2D() {
 
+    /*
+    num_mevs is the number of mating events (how many tournaments
+    to run)
+    population size is how many board to create
+    num_states is how many states each position in the board
+    can take on - by default it is 10 (0 through 9)
+    the tournament size is how many to sample from the
+    population (must be less than or equal to the population
+    size)
+    width and height are the size of 1D board (or size of 1
+    2D layer)
+    num_iters is how many boards to make for the 2D representation
+    (if running 1D it should be 1)
+    the start_population indicates:
+      (for 1D) the first line of the board
+      (for 2D) the centre square of the board
+    max cuts indicates how many times a rule string
+    can be cut before crossover operation is performed
+    max mutations is how many point mutations can be
+    performed on one rule string
+
+    the output file will contain the evolved solutions
+    to the apoptotic cellular automata problem
+
+    */
+
     let num_mevs = 10;
     let population_size = 10;
     let num_states = 10;

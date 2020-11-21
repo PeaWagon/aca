@@ -6,8 +6,6 @@ pub mod mutation;
 pub mod population;
 pub mod tournament;
 
-extern crate wasm_bindgen;
-
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]
